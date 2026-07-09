@@ -1,7 +1,7 @@
 <!--
-  Developed by Mohammad Rameez Imdad (Rameez Scripts)
-  WhatsApp: https://wa.me/923224083545 (For Custom Projects)
-  YouTube: https://www.youtube.com/@rameezimdad (Subscribe for more!)
+  Developed by Debasish Pandey (Rameez Scripts)
+  WhatsApp: https://wa.me/917699899818 (For Custom Projects)
+  YouTube: https://www.youtube.com/ (Subscribe for more!)
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -10,8 +10,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<title>Firebase Records Manager</title>
-<link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGXxCe0WNNedmFqSWeF761f7Kshhc-NP5ChRQKz9fr97cO8VaarvD0KlCwqHojJVBWv-RAxfOqMI5rD4H78KnARyOc6QgwL1nRRFWf5xNQ1d9F9HfAoLPPGlTyP0GwNl4n-INMEsWLQ4Y7zJtz5bOdAnc2ePH9-uCRgshlo6BsS6gJEz6fhrxL-5U5O3sX/s160/channels4_profile.jpg">
+<title>POS</title>
+<link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp8MwiVxLwM_dU1cdiuLYcNOjLAt0-TWjLmBilLqWp0g8z7QMzkgHugAOtAQj965SiMG2Rou1KmwNp4CWpy7eN2IiwUk2lhNFG6pk7G1E1jhoYHjDMKnI4I2mkKT4bVgl8dMKhAuAchEa2ZivwIniC16HGY20LW8cs6ZZMtBuNiUz3PhiDvlSIf2Bsl_4/s200/200pxjpeg.jpg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -950,7 +950,7 @@ const useConfig = () => React.useContext(ConfigContext);
 // category dropdown options - live list from DB, falls back to the seed defaults while loading
 const useCategoryOpts = () => { const { categories } = useConfig(); return useMemo(() => categories.length ? categories.map(c => ({ value: c.name, label: c.name })) : CATEGORY_OPTS, [categories]); };
 
-const LOGO_URL = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGXxCe0WNNedmFqSWeF761f7Kshhc-NP5ChRQKz9fr97cO8VaarvD0KlCwqHojJVBWv-RAxfOqMI5rD4H78KnARyOc6QgwL1nRRFWf5xNQ1d9F9HfAoLPPGlTyP0GwNl4n-INMEsWLQ4Y7zJtz5bOdAnc2ePH9-uCRgshlo6BsS6gJEz6fhrxL-5U5O3sX/s160/channels4_profile.jpg';
+const LOGO_URL = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp8MwiVxLwM_dU1cdiuLYcNOjLAt0-TWjLmBilLqWp0g8z7QMzkgHugAOtAQj965SiMG2Rou1KmwNp4CWpy7eN2IiwUk2lhNFG6pk7G1E1jhoYHjDMKnI4I2mkKT4bVgl8dMKhAuAchEa2ZivwIniC16HGY20LW8cs6ZZMtBuNiUz3PhiDvlSIf2Bsl_4/s200/200pxjpeg.jpg';
 
 const CATEGORY_OPTS = [
   { value: 'Electronics', label: 'Electronics' },
@@ -3558,7 +3558,7 @@ function AboutView() {
         <div className="about-logo"><img src={LOGO_URL} alt="Developer Logo" /></div>
         <div className="about-title">
           <h1>Firebase Records Manager</h1>
-          <p className="about-dev">Developed by <strong>Mohammad Rameez Imdad</strong> (Rameez Scripts)</p>
+          <p className="about-dev">Developed by <strong>Debasish Pandey</strong> DP Network Scripts)</p>
         </div>
       </div>
       <div className="about-card">
@@ -3672,20 +3672,20 @@ function AboutView() {
       <div className="about-card about-developer">
         <h2><i className="fas fa-code"></i> About the Developer</h2>
         <div className="developer-info">
-          <img src={LOGO_URL} alt="Mohammad Rameez Imdad" className="developer-avatar" />
+          <img src={LOGO_URL} alt="Debasish Pandey" className="developer-avatar" />
           <div className="developer-details">
-            <h3>Mohammad Rameez Imdad</h3>
-            <p className="developer-brand">Rameez Scripts</p>
+            <h3>Debasish Pandey</h3>
+            <p className="developer-brand">DP Network Scripts</p>
             <p>I build custom web apps, dashboards, and automation tools. If you need somthing built for your buisness or project, feel free to reach out!</p>
             <div className="developer-links">
-              <a href="https://wa.me/923224083545" target="_blank" className="dev-link whatsapp"><i className="fab fa-whatsapp"></i> WhatsApp Me</a>
-              <a href="https://www.youtube.com/@rameezimdad" target="_blank" className="dev-link youtube"><i className="fab fa-youtube"></i> Subscribe on YouTube</a>
+              <a href="https://wa.me/917699899818" target="_blank" className="dev-link whatsapp"><i className="fab fa-whatsapp"></i> WhatsApp Me</a>
+              <a href="https://www.youtube.com" target="_blank" className="dev-link youtube"><i className="fab fa-youtube"></i> Subscribe on YouTube</a>
             </div>
           </div>
         </div>
       </div>
       <div className="about-footer">
-        <p>Made with <i className="fas fa-heart" style={{color: '#ea4335'}}></i> by Rameez Scripts</p>
+        <p>Made with <i className="fas fa-heart" style={{color: '#ea4335'}}></i> by DP Network Scripts</p>
         <p className="about-version">Version 1.0.0</p>
       </div>
     </div>
